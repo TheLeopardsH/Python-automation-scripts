@@ -22,7 +22,7 @@ for line in file1:
     checktest = regexObj2.search(changereadline)
     if checktest != None:
         fileappend.write(changereadline.rstrip())
-        fileappend.write(" #comment added\n")
+        fileappend.write(" #renamed\n")
     else:
         fileappend.write(changereadline.rstrip())
         fileappend.write("\n")

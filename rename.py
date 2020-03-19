@@ -3,8 +3,8 @@ import sys
 import re
 import glob
 #print(sys.argv)
-
 #print(glob.glob("D:/*.txt"))
+
 if len(sys.argv) == 5:
     print("you have entered arguments {0} ".format(sys.argv[1]),format(sys.argv[2]),format(sys.argv[3]),format(sys.argv[4]))
 else:
@@ -29,7 +29,3 @@ for line in file1:
 file1.close()
 fileappend.close()
 
-    print(changereadline)
-
-file1.close()
-fileappend.close()

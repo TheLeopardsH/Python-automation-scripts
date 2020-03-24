@@ -1,4 +1,4 @@
-#- Python-automation-scripts
+# Python-automation-scripts
 
 
 # 1- Script:rename.py
@@ -19,4 +19,5 @@ for extracting phone and emails from text copied from clipboard
 script for Categorize your  files according to extension(search recursively and copy files according to respective files) e.g zip files in .zip folder
 
 ### Usage
-python Categorize.py D:\
+        python Categorize.py Path
+        Path=directory path in which to categorize files

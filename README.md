@@ -2,7 +2,7 @@
 
 
 # 1- Script:rename.py
-Rename project code files and add a comment //renamed
+        Rename project code files and add a comment //renamed
 
 ### Usage:
         python rename.py variabletobereplaced replacingvariable  D:/Python.py D:/Pythonscript2.txt
@@ -12,11 +12,11 @@ Rename project code files and add a comment //renamed
 
 # 2- Script:Phone&emailextractor.py
 
-for extracting phone and emails from text copied from clipboard
+        For extracting phone and emails from text copied from clipboard
 
 # 3- Script:Categorize.py
 
-script for Categorize your  files according to extension(search recursively and copy files according to respective files) e.g zip files in .zip folder
+        script for Categorize your  files according to extension(search recursively and copy files according to respective files) e.g zip files in .zip folder
 
 ### Usage
         python Categorize.py Path

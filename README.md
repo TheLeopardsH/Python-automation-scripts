@@ -24,5 +24,8 @@
         
 # 4- Script:RenameDate.py
          convert date format from American (MM-DD-YYYY) to European (DD-MM-YYYY) in all file names
+         
+# 5- Script:googlemap.py
+Launches a google maps in the browser using an address from the command line or clipboard.
 
 

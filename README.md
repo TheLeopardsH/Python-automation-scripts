@@ -21,3 +21,8 @@
 ### Usage
         python Categorize.py Path
         Path=directory path in which to categorize files
+        
+# 4- Script:RenameDate.py
+         convert date format from American (MM-DD-YYYY) to European (DD-MM-YYYY) in all file names
+
+

@@ -26,6 +26,7 @@
          convert date format from American (MM-DD-YYYY) to European (DD-MM-YYYY) in all file names
          
 # 5- Script:googlemap.py
-Launches a google maps in the browser using an address from the command line or clipboard.
+        Launches a google maps in the browser using an address from the command line or clipboard.
 
-
+# 6-Script:googleseacrh.py
+        Google top 5 search results open in broswer via command line

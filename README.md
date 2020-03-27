@@ -30,3 +30,8 @@
 
 # 6-Script:googleseacrh.py
         Google top 5 search results open in broswer via command line
+
+# 7-Script:EKCDimagedowloader.py
+        Script for downloading all comic images from XKCD.com
+
+

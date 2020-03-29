@@ -42,7 +42,7 @@
     Prints the results  
     
  # 9-Script:Excelupdatesheet.py
-        script for updating the price of Celery,Spinach,Apples in Exel Spreadsheet file
+        script for updating the price of Celery,Spinach,Apples in Excel Spreadsheet file and after updating also highlight them
 
 
 

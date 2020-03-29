@@ -1,6 +1,9 @@
 #!usr/bin/python3
 #script for updating the price of Celery,Spinach,Apples in Exel Spreadsheet file
 import  openpyxl
+from openpyxl.styles import Font
+BoldItalicfont20 = Font(size=20,bold=True,italic=True)
+
 excel = openpyxl.load_workbook('produceSales.xlsx')
 sheet = excel['Sheet']
 #Data structure for product type and thier prices
@@ -12,5 +15,6 @@ Price_Update = {'Apples':1.88,
 for Row in range(2,sheet.max_row):
     productname = sheet.cell(row=Row,column=1).value
     if productname in Price_Update:
+        sheet.cell(row=Row, column=1).font =BoldItalicfont20
         sheet.cell(row=Row,column=2).value = Price_Update[productname]
-excel.save('UpdatedProduceSales.xlxs')
+excel.save('UpdatedProduceSales.xlsx')

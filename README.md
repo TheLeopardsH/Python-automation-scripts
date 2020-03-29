@@ -33,5 +33,12 @@
 
 # 7-Script:EKCDimagedowloader.py
         Script for downloading all comic images from XKCD.com
+      
+# 8-Script:excelDataExtraction.py
+    Function of Script:
+    Reads the data from the Excel spreadsheet
+    Counts the number of census tracts in each county
+    Counts the total population of each county
+    Prints the results  
 
 
